@@ -30,15 +30,11 @@
 <H2>Course content</H2>
 <h2>Forms</h2>
 
-<form action="/action_page.php">
-  <label for="fname">1:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="fname">2:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">3:</label><br>
-  <input type="number" id="quantity" name="quantity" value="6"><br><br>
-  <input type="submit" value="Submit">
-</form> 
+<form name="myform" method="post" action="mailto:username@hotmail.com" onsubmit="return validateform()" >  
+  Name: <input type="text" name="name"><br/>  
+  Password: <input type="password" name="password"><br/>  
+  <input type="submit" value="register">  
+  </form> 
 <p>enquiry.</p>
 
 <div align="center">
